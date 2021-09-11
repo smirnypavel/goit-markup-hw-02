@@ -2,68 +2,65 @@
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color-text: #2196f3;
-}
-/* logo */
-.logo {
-  color: var(--secondary-text-color);
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  font-style: normal;
-}
-/* header */
-.nav-site a {
-  color: var(--secondary-text-color);
-  line-height: 16px;
-}
-.auth-nav a {
-  color: var(--primery-text-color);
-}
-.nav-site a:hover,
-.nav-site a:focus {
-  color: var(--accent-color-text);
-}
-.auth-nav a:hover,
-.auth-nav a:focus {
-  color: var(--accent-color-text);
+  --logo-text-color: #000000;
+  --white-color: #ffffff;
 }
 
-/* body */
-.body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+/* вторичный цвет фона #F5F4FA */
+/* основной цвет фона #FFFFFF */
+
+body {
+  background-color: #ffffff;
+  color: var(--primery-text-color);
+}
+.logo {
+  color: var(--logo-text-color);
+}
+/* site-nav */
+
+.site-nav .link {
+  color: var(--logo-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color-text);
 }
 
 /* hero */
+
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: #2f303a;
-  font-weight: 900;
-  font-size: 44px;
 }
-/* button */
-.button {
-  color: #ffffff;
-  background-color: var(--accent-color-text);
-}
+
+/* section */
 
 .section-title {
   color: var(--secondary-text-color);
 }
-h3 a {
+.section .title {
   color: var(--secondary-text-color);
 }
-p {
-  color: var(--primery-text-color);
-}
-/* footer */
-.footer {
-  background-color: #2f303a;
+
+/* Особенности */
+
+.peculiarity {
+  list-style: none;
 }
 
-.addres {
-  font-style: normal;
+.peculiarity .title a {
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.our-work {
+  list-style: none;
+}
+
+/* Наш персонал */
+
+.our-personal {
+  list-style: none;
 }
