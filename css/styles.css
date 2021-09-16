@@ -10,6 +10,14 @@
 /* вторичный цвет фона #F5F4FA */
 /* основной цвет фона #FFFFFF */
 
+.link {
+  text-decoration: none;
+}
+
+.site-nav .link.carent {
+  color: var(--accent-color-text);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -21,7 +29,18 @@ body {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--accent-color-text);
+  text-decoration: none;
+}
+.logo-header {
   color: var(--logo-text-color);
+}
+.logo-footer {
+  color: var(--white-color);
 }
 /* site-nav */
 
@@ -68,7 +87,14 @@ body {
   background-color: #2f303a;
   text-align: center;
 }
-
+.button {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  color: var(--white-color);
+  background-color: var(--accent-color-text);
+}
 /* section */
 
 .section-title {
@@ -90,7 +116,7 @@ body {
   list-style: none;
 }
 
-.peculiarity .title a {
+.peculiarity-title {
   color: var(--secondary-text-color);
 }
 
@@ -119,7 +145,6 @@ body {
 .addres {
   font-style: normal;
   color: #ffffff;
-  letter-spacing: 0.03em;
   background-color: var(--background-footer-color);
 }
 
@@ -129,4 +154,42 @@ body {
 
 .addres .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*  Portfolio */
+.button-select {
+  list-style: none;
+}
+.btn-select {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.btn-select:hover,
+.btn-select:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color-text);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
