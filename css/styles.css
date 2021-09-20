@@ -5,6 +5,7 @@
   --logo-text-color: #000000;
   --white-color: #ffffff;
   --background-footer-color: #2f303a;
+  --hover-button: #188ce8;
 }
 
 /* вторичный цвет фона #F5F4FA */
@@ -73,7 +74,7 @@ body {
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: var(--accent-color-text);
+  color: var(--hover-button);
 }
 
 /* hero */
@@ -86,15 +87,20 @@ body {
   color: var(--white-color);
   background-color: #2f303a;
   text-align: center;
+  text-transform: uppercase;
 }
 .button {
   font-family: "roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+}
+.button:hover,
+.button:focus {
   color: var(--white-color);
   background-color: var(--accent-color-text);
 }
+
 /* section */
 
 .section-title {
@@ -103,7 +109,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-
   text-align: center;
 }
 .section .title {
@@ -118,6 +123,7 @@ body {
 
 .peculiarity-title {
   color: var(--secondary-text-color);
+  text-transform: uppercase;
 }
 
 /* Чем мы занимаемся */
