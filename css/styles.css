@@ -74,7 +74,7 @@ body {
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: var(--hover-button);
+  color: var(--accent-color-text);
 }
 
 /* hero */
@@ -94,11 +94,13 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+  color: var(--white-color);
+  background-color: var(--accent-color-text);
 }
 .button:hover,
 .button:focus {
   color: var(--white-color);
-  background-color: var(--accent-color-text);
+  background-color: var(--hover-button);
 }
 
 /* section */
